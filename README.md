@@ -4,10 +4,10 @@ zucchero
 Minimal macro for globally shared, type-safe singleton.
 
 ```toml
-
 [dependencies]
+...
 zucchero = "1"
-
+once_cell = "1.21.3"
 ```
 
 ```rust
