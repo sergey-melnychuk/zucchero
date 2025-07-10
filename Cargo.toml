@@ -1,0 +1,13 @@
+[package]
+name = "zucchero"
+version = "1.0.0"
+edition = "2024"
+description = "Minimal macro for globally shared, type-safe singleton"
+license = "MIT" 
+repository = "https://github.com/sergey-melnychuk/zucchero"
+documentation = "https://docs.rs/zucchero"
+readme = "README.md"
+authors = ["Sergey Melnychuk"]
+
+[dependencies]
+once_cell = "1.21.3"
